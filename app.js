@@ -10,7 +10,7 @@ const errcb = (...args) => console.error.bind(this, ...args);
 // Configuration for the VLESS proxy
 const uuid = (process.env.UUID || 'd342d11e-d424-4583-b36e-524ab1f0afa4').replace(/-/g, "");
 const port = process.env.PORT || 8080;
-const zerotrust_auth = process.env.ZERO_AUTH || 'eyJhIjoiNmIwYzRiZDczMjQ4Y2IxNTYyMTdmN2QyNzZlOWE5ZjAiLCJ0IjoiNTkxNjI5YmUtNjI3MS00MGYwLWJjNmItNmIwMTZmYTIxMTE2IiwicyI6Ik56Y3lPVE5pTWpjdE5ERm1NeTAwWldReExXRXhOakV0WVdRMU5qTXpPVEF3WXpneSJ9';
+const zerotrust_auth = process.env.ZERO_AUTH || 'eyJhIjoiZmM5YWQ3MmI4ZTYyZGZkMzMxZTk1MjY3MjA1YjhmZGUiLCJ0IjoiYzUxZDQ3MjMtZDM3OC00NjMwLTkxYmUtYTI0MzNmODIyYjM5IiwicyI6Ik9EazFaRE14WkRRdE4yVmlaQzAwTXpNeExXSmlOV0l0WkRZd1pETTVNMlk1WVRrNCJ9';
 
 
 
