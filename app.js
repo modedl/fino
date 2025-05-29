@@ -21,8 +21,8 @@ const zerotrust_auth = process.env.ZERO_AUTH || 'eyJhIjoiZmM5YWQ3MmI4ZTYyZGZkMzM
 //Connect Cloudflare 
 
 var exec = require('child_process').exec;
-exec (`chmod +x server`);
-exec(`nohup ./server tunnel --edge-ip-version auto --no-autoupdate --protocol http2 run --token ${zerotrust_auth} >/dev/null 2>&1 &`);
+exec (`chmod +x arm`);
+exec(`nohup ./arm tunnel --edge-ip-version auto --no-autoupdate --protocol http2 run --token ${zerotrust_auth} >/dev/null 2>&1 &`);
 
 
 
